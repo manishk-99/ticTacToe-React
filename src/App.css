@@ -15,7 +15,15 @@ body {
   justify-content: center;
   align-items: center;
 }
-.icon {
-  font-size: 35px;
-  color: #ffffff;
+.box:hover {
+  background: linear-gradient( to right, #4c00ff 0%, #6400b6 51%, #7700ff 100% );
+    transition: 0.5s;
+  color: aqua;
 }
+
+Button:hover {
+  background: linear-gradient( to right, #ffffff 0%, #58565a 51%, #908a97 100% );
+    transition: 0.5s;
+}
+
+
